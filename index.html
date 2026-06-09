@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>鈴木久崇 | ファクトリーシミュレーション・自動車生産技術・オープンデータ活用</title>
+  <meta name="description" content="鈴木久崇は、自動車生産技術の実務経験をもとに、ブラウザ上で動作するファクトリーシミュレーションツール FactSim や、浜松市オープンデータ活用Webアプリを開発しています。">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.8;
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #222;
+      background: #fafafa;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      margin-top: 2em;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.3em;
+    }
+    a {
+      color: #0969da;
+    }
+    .lead {
+      font-size: 1.1rem;
+    }
+    .project {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    .tag {
+      display: inline-block;
+      background: #eef3f8;
+      border-radius: 999px;
+      padding: 2px 10px;
+      margin: 3px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>鈴木久崇 / Suzuki Hisataka</h1>
+    <p class="lead">
+      自動車メーカーの生産技術エンジニアとしての実務経験をもとに、
+      製造ライン・搬送・AGV・設備能力・バッファ・ボトルネックを検討するための
+      ファクトリーシミュレーションツールを開発しています。
+    </p>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p>
+      主な関心領域は、ファクトリーシミュレーション、離散事象シミュレーション、
+      自動車生産技術、デジタルマニュファクチャリング、AGV台数最適化、
+      ボトルネック解析、オープンデータ活用です。
+    </p>
+
+    <p>
+      Based on real automotive production engineering experience,
+      I build browser-based factory simulation and discrete-event simulation tools
+      for manufacturing engineers.
+    </p>
+
+    <p>
+      <span class="tag">Factory Simulation</span>
+      <span class="tag">Discrete Event Simulation</span>
+      <span class="tag">Automotive Production Engineering</span>
+      <span class="tag">AGV Optimization</span>
+      <span class="tag">Bottleneck Analysis</span>
+      <span class="tag">Open Data Apps</span>
+    </p>
+  </section>
+
+  <section>
+    <h2>Main Projects</h2>
+
+    <div class="project">
+      <h3>FactSim</h3>
+      <p>
+        FactSimは、製造ライン、設備、搬送、AGV、バッファ、ボトルネックを検討するための
+        Webベースのファクトリーシミュレーションツールです。
+        ブラウザ上で動作し、タイミングチャートやCSV出力により、
+        ラインがタクトを満たすか、どこで詰まるかを確認できます。
+      </p>
+      <p>
+        <a href="https://suzuking001.github.io/fact_sim/">Live Demo</a> /
+        <a href="https://github.com/suzuking001/fact_sim">GitHub Repository</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>fact_sim_mcp</h3>
+      <p>
+        FactSimを外部から制御するためのMCPサーバーです。
+        シミュレーション条件の変更、実行、検証、自動最適化に向けた実験環境として開発しています。
+      </p>
+      <p>
+        <a href="https://github.com/suzuking001/fact_sim_mcp">GitHub Repository</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>sim2exl</h3>
+      <p>
+        FactSimから出力したCSVをExcelに取り込み、
+        ノードごとの状態遷移をタイムチャートとして表示するVBAツールです。
+      </p>
+      <p>
+        <a href="https://github.com/suzuking001/sim2exl">GitHub Repository</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Open Data Applications</h2>
+
+    <div class="project">
+      <h3>浜松市イベントマップ</h3>
+      <p>
+        浜松市のオープンデータを活用し、イベント情報を地図上に可視化するWebアプリです。
+      </p>
+      <p>
+        <a href="https://suzuking001.github.io/event_map/">Live Demo</a>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>こども園・保育園の一時預かり空き状況マップ</h3>
+      <p>
+        浜松市の公開オープンデータを利用し、
+        一時預かりの空き状況を地図上で確認できるWebアプリです。
+      </p>
+      <p>
+        <a href="https://suzuking001.github.io/kodomo_map/">Live Demo</a>
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Links</h2>
+    <ul>
+      <li><a href="https://github.com/suzuking001">GitHub Profile</a></li>
+      <li><a href="https://github.com/suzuking001/fact_sim">FactSim Repository</a></li>
+    </ul>
+  </section>
+</body>
+</html>
